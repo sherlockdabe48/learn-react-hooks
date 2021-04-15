@@ -29,7 +29,7 @@ export default function LearnUseMemo() {
 
   return (
     <>
-      <h1>2. Learn UseMemo</h1>
+      <h1>3. Learn UseMemo</h1>
 
       <input
         type="number"

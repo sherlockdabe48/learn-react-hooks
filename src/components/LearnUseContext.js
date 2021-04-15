@@ -8,7 +8,7 @@ import { ThemeProvider } from "./ThemeContext"
 export default function LearnUseContext() {
   return (
     <>
-      <h1>4. Learn useContext</h1>
+      <h1>5. Learn useContext</h1>
       <ThemeProvider>
         <FunctionContextComponent />
       </ThemeProvider>

@@ -23,7 +23,7 @@ export default function LearnUseRef() {
 
   return (
     <>
-      <h1>3. Learn useRef</h1>
+      <h1>4. Learn useRef</h1>
       <div>
         <input
           ref={inputRef}
