@@ -23,7 +23,7 @@ export default function LearnUseRef() {
 
   return (
     <>
-      <h1>Learn useRef</h1>
+      <h1>3. Learn useRef</h1>
       <div>
         <input
           ref={inputRef}
@@ -37,8 +37,8 @@ export default function LearnUseRef() {
         </div>
         <div>useRef example#2 : I rendered {renderCount.current} times</div>
         <div>
-          useRef example#3 : My name is <strong>{name}</strong> <br /> and My old
-          name is <strong>{prevName.current}</strong>
+          useRef example#3 : My name is <strong>{name}</strong> <br /> and My
+          old name is <strong>{prevName.current}</strong>
         </div>
       </div>
     </>

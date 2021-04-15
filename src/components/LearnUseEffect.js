@@ -13,7 +13,7 @@ export default function LearnUseEffect() {
     fetch(`${API_URL}${resourceType}`)
       .then((response) => response.json())
       .then((json) => setData(json))
-  }, [])
+  }, [resourceType])
 
   useEffect(() => {
     window.addEventListener("resize", () => {

@@ -1,5 +1,6 @@
 import React from "react"
 import "./App.css"
+import LearnUseContext from "./components/LearnUseContext"
 import LearnUseEffect from "./components/LearnUseEffect"
 import LearnUseMemo from "./components/LearnUseMemo"
 import LearnUseRef from "./components/LearnUseRef"
@@ -10,6 +11,7 @@ function App() {
       <LearnUseEffect />
       <LearnUseMemo />
       <LearnUseRef />
+      <LearnUseContext />
     </>
   )
 }
