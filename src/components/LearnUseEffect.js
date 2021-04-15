@@ -25,6 +25,7 @@ export default function LearnUseEffect() {
 
     return (
         <>
+        <h1>1. Learn UseEffect</h1>
       <h3>{windowWidth}</h3>
       <div>
         <button onClick={() => setResourceType("users")}>Users</button>
