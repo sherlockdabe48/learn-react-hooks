@@ -1,3 +1,6 @@
+//Explanation Ref from Kyle Cook
+//https://youtu.be/THL1OPn72vo
+
 import React, { useEffect, useMemo, useState } from "react"
 
 export default function LearnUseMemo() {
@@ -18,7 +21,7 @@ export default function LearnUseMemo() {
     }
   }, [dark])
 
-  // Use UseMemo on const themeStyle for
+  // Use useMemo on const themeStyle for
   // => This will run only when [themeStyle] changed no run when number is change
   useEffect(() => {
     console.log("theme change")
