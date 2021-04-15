@@ -1,4 +1,5 @@
 import React from "react"
+import LearnUseCallback from "./components/LearnUseCallback"
 import LearnUseContext from "./components/LearnUseContext"
 import LearnUseEffect from "./components/LearnUseEffect"
 import LearnUseMemo from "./components/LearnUseMemo"
@@ -15,6 +16,7 @@ function App() {
       <LearnUseRef />
       <LearnUseContext />
       <LearnUseReducer />
+      <LearnUseCallback />
     </>
   )
 }
