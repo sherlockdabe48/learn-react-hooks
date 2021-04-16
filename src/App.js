@@ -1,4 +1,5 @@
 import React from "react"
+import LearnCustomHooks from "./components/LearnCustomHooks"
 import LearnUseCallback from "./components/LearnUseCallback"
 import LearnUseContext from "./components/LearnUseContext"
 import LearnUseEffect from "./components/LearnUseEffect"
@@ -17,6 +18,7 @@ function App() {
       <LearnUseContext />
       <LearnUseReducer />
       <LearnUseCallback />
+      <LearnCustomHooks />
     </>
   )
 }

@@ -31,6 +31,18 @@ export default function LearnUseCallback() {
   return (
     <div style={theme}>
       <h1>7. Learn useCallback</h1>
+      <p>
+        useCallback will benefits when your application renders , and there are
+        some function or value that doesn't change, they will not get re-render.
+        They will render whenever the value inside useCallback has change and
+        that's make your application performance get better. (This useCallback
+        is similar to the useMemo, but useCallback can manage the function
+        itself, in the other hand useMemo just manage the return value inside of
+        the useMemo only. <br /> <br /> In this example: When the number get
+        re-render, The Theme will not get render. <br />
+        and when the theme is toggle and re-render, the number (that is still
+        the same value) will not get re-render.{" "}
+      </p>
       <input
         type="number"
         value={number}

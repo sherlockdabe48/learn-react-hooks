@@ -45,7 +45,11 @@ export default function LearnUseReducer() {
   return (
     <div>
       <h1>6. Learn UseReducer</h1>
-
+      <p>
+        Todo-list application that use reducer to handle all actions of the app
+        in a single function calls 'dispatch'. <br />
+        Let's try &gt;&gt; type some text in the input box and hit 'Enter'.
+      </p>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
